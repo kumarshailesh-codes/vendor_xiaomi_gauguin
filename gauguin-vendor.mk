@@ -814,35 +814,35 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
-    capi_v2_aptX_CLHDADV_Encoder \
-    capi_v2_aptX_CLHDAD_Speech_Decoder \
-    libMIAIHDR_skel \
-    libSuperSensor_skel \
-    libapps_mem_heap \
-    libarc_hta_driver_skel \
-    libarcsoft_hdrplus_hvx_skel \
-    libbitml_nsp_skel \
-    libcalculator_domains_skel \
-    libcalculator_skel \
-    libcamera_nn_skel \
-    libcvpdsp_skel \
-    libdspCV_skel \
-    libdsp_streamer_binning \
-    libfastcvadsp \
-    libfastcvdsp_skel \
-    libhexagon_nn_skel \
-    libhta_dsp_skel \
-    libmialgo_rfs_cdsp_skel \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
-    libsnpe_dsp_domains_skel \
-    libsnpe_dsp_skel \
-    libsnpe_dsp_v65_domains_v2_skel \
-    libsnpe_dsp_v66_domains_v2_skel \
-    misound_karaoke_res \
-    misound_karaokemix_res \
-    misound_res_headphone \
-    misound_res_spk \
+    vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDADV_Encoder_so \
+    vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDAD_Speech_Decoder_so \
+    vendor_lib_rfsa_adsp_libMIAIHDR_skel_so \
+    vendor_lib_rfsa_adsp_libSuperSensor_skel_so \
+    vendor_lib_rfsa_adsp_libapps_mem_heap_so \
+    vendor_lib_rfsa_adsp_libarc_hta_driver_skel_so \
+    vendor_lib_rfsa_adsp_libarcsoft_hdrplus_hvx_skel_so \
+    vendor_lib_rfsa_adsp_libbitml_nsp_skel_so \
+    vendor_lib_rfsa_adsp_libcalculator_domains_skel_so \
+    vendor_lib_rfsa_adsp_libcalculator_skel_so \
+    vendor_lib_rfsa_adsp_libcamera_nn_skel_so \
+    vendor_lib_rfsa_adsp_libcvpdsp_skel_so \
+    vendor_lib_rfsa_adsp_libdspCV_skel_so \
+    vendor_lib_rfsa_adsp_libdsp_streamer_binning_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_so \
+    vendor_lib_rfsa_adsp_libfastcvdsp_skel_so \
+    vendor_lib_rfsa_adsp_libhexagon_nn_skel_so \
+    vendor_lib_rfsa_adsp_libhta_dsp_skel_so \
+    vendor_lib_rfsa_adsp_libmialgo_rfs_cdsp_skel_so \
+    vendor_lib_rfsa_adsp_libscveObjectSegmentation_skel_so \
+    vendor_lib_rfsa_adsp_libscveT2T_skel_so \
+    vendor_lib_rfsa_adsp_libsnpe_dsp_domains_skel_so \
+    vendor_lib_rfsa_adsp_libsnpe_dsp_skel_so \
+    vendor_lib_rfsa_adsp_libsnpe_dsp_v65_domains_v2_skel_so \
+    vendor_lib_rfsa_adsp_libsnpe_dsp_v66_domains_v2_skel_so \
+    vendor_lib_rfsa_adsp_misound_karaoke_res_bin \
+    vendor_lib_rfsa_adsp_misound_karaokemix_res_bin \
+    vendor_lib_rfsa_adsp_misound_res_headphone_bin \
+    vendor_lib_rfsa_adsp_misound_res_spk_bin \
     libmmosal \
     libmmparser_lite \
     com.qualcomm.qti.dpm.api@1.0 \
