@@ -6490,7 +6490,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.gnss@4.0-impl",
+    name: "vendor.qti.gnss@4.3-impl",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -6498,7 +6498,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so",
+                "proprietary/vendor/lib64/hw/vendor.qti.gnss@4.3-impl.so",
             ],
             shared_libs: [
                 "liblog",
@@ -6513,6 +6513,9 @@ cc_prebuilt_library_shared {
                 "vendor.qti.gnss@2.1",
                 "vendor.qti.gnss@3.0",
                 "vendor.qti.gnss@4.0",
+                "vendor.qti.gnss@4.1",
+                "vendor.qti.gnss@4.2",
+                "vendor.qti.gnss@4.3",
                 "libloc_core",
                 "libgps.utils",
                 "liblocation_api",
@@ -8975,6 +8978,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libgps.utils",
                 "liblog",
+                "libloc_core",
                 "libc++",
                 "libc",
                 "libm",
@@ -14260,7 +14264,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.gnss@4.0-service",
+    name: "vendor.qti.gnss@4.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14268,7 +14272,115 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/vendor.qti.gnss@4.0-service.so",
+                "proprietary/vendor/lib64/vendor.qti.gnss@4.0.so",
+            ],
+            shared_libs: [
+                "android.hardware.gnss@1.0",
+                "vendor.qti.gnss@1.0",
+                "vendor.qti.gnss@1.1",
+                "vendor.qti.gnss@1.2",
+                "vendor.qti.gnss@2.0",
+                "vendor.qti.gnss@2.1",
+                "vendor.qti.gnss@3.0",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.qti.gnss@4.1",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.qti.gnss@4.1.so",
+            ],
+            shared_libs: [
+                "android.hardware.gnss@1.0",
+                "vendor.qti.gnss@1.0",
+                "vendor.qti.gnss@1.1",
+                "vendor.qti.gnss@1.2",
+                "vendor.qti.gnss@2.0",
+                "vendor.qti.gnss@2.1",
+                "vendor.qti.gnss@3.0",
+                "vendor.qti.gnss@4.0",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.qti.gnss@4.2",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.qti.gnss@4.2.so",
+            ],
+            shared_libs: [
+                "android.hardware.gnss@1.0",
+                "vendor.qti.gnss@1.0",
+                "vendor.qti.gnss@1.1",
+                "vendor.qti.gnss@1.2",
+                "vendor.qti.gnss@2.0",
+                "vendor.qti.gnss@2.1",
+                "vendor.qti.gnss@3.0",
+                "vendor.qti.gnss@4.0",
+                "vendor.qti.gnss@4.1",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.qti.gnss@4.3-service",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.qti.gnss@4.3-service.so",
             ],
             shared_libs: [
                 "liblog",
@@ -14288,6 +14400,9 @@ cc_prebuilt_library_shared {
                 "vendor.qti.gnss@2.1",
                 "vendor.qti.gnss@3.0",
                 "vendor.qti.gnss@4.0",
+                "vendor.qti.gnss@4.1",
+                "vendor.qti.gnss@4.2",
+                "vendor.qti.gnss@4.3",
                 "libc++",
                 "libc",
                 "libm",
@@ -14301,7 +14416,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.gnss@4.0",
+    name: "vendor.qti.gnss@4.3",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14309,7 +14424,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/vendor.qti.gnss@4.0.so",
+                "proprietary/vendor/lib64/vendor.qti.gnss@4.3.so",
             ],
             shared_libs: [
                 "android.hardware.gnss@1.0",
@@ -14319,6 +14434,9 @@ cc_prebuilt_library_shared {
                 "vendor.qti.gnss@2.0",
                 "vendor.qti.gnss@2.1",
                 "vendor.qti.gnss@3.0",
+                "vendor.qti.gnss@4.0",
+                "vendor.qti.gnss@4.1",
+                "vendor.qti.gnss@4.2",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -17027,9 +17145,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "vendor.qti.gnss@4.0-service.xml",
+    name: "vendor.qti.gnss@4.3-service.xml",
     owner: "xiaomi",
-    src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
+    src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.3-service.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,

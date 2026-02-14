@@ -492,7 +492,7 @@ PRODUCT_PACKAGES += \
     fingerprint.fpc.default \
     fingerprint.goodix.default \
     vendor.qti.esepowermanager@1.1-impl \
-    vendor.qti.gnss@4.0-impl \
+    vendor.qti.gnss@4.3-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
@@ -756,8 +756,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@2.0 \
     vendor.qti.gnss@2.1 \
     vendor.qti.gnss@3.0 \
-    vendor.qti.gnss@4.0-service \
     vendor.qti.gnss@4.0 \
+    vendor.qti.gnss@4.1 \
+    vendor.qti.gnss@4.2 \
+    vendor.qti.gnss@4.3-service \
+    vendor.qti.gnss@4.3 \
     vendor.qti.hardware.alarm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
@@ -883,7 +886,7 @@ PRODUCT_PACKAGES += \
     c2_manifest_vendor.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
-    vendor.qti.gnss@4.0-service.xml \
+    vendor.qti.gnss@4.3-service.xml \
     ATFWD-daemon \
     adpl \
     adsprpcd \
