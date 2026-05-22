@@ -314,6 +314,8 @@ PRODUCT_PACKAGES += \
     libOpenCL \
     libVkLayer_q3dtools \
     libadreno_utils \
+    libadsp_default_listener \
+    libadsprpc \
     libc2d30_bltlib \
     libcdsp_default_listener \
     libcdsprpc \
@@ -325,12 +327,14 @@ PRODUCT_PACKAGES += \
     libgsl \
     libllvm-glnext \
     libllvm-qcom \
+    libmdsprpc \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
     libscveObjectSegmentation_stub \
     libscveObjectTracker \
     libscveObjectTracker_stub \
+    libsdsprpc \
     libthermalclient \
     libvppclient \
     libvpphcp \
@@ -527,8 +531,6 @@ PRODUCT_PACKAGES += \
     libStDrvInt \
     libSuperSensor \
     libSuperSensorCPU \
-    libadsp_default_listener \
-    libadsprpc \
     libalCFR \
     libalLDC \
     libalhLDC \
@@ -613,7 +615,6 @@ PRODUCT_PACKAGES += \
     liblowi_wifihal \
     liblqe \
     libmdmdetect \
-    libmdsprpc \
     libmiStereoFactoryRemapBasicLib \
     libmiStereoFactoryRemapLib \
     libmiai_portraitsupernight \
@@ -680,7 +681,6 @@ PRODUCT_PACKAGES += \
     libsdm-diag \
     libsdm-disp-vndapis \
     libsdmextension \
-    libsdsprpc \
     libsecureui \
     libsecureui_svcsock \
     libsensorcal \
